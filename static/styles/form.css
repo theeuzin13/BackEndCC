@@ -1,0 +1,84 @@
+#carros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+    
+}
+
+input{
+    margin-top: 20px;
+    border: solid white;
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 15px;
+    border: none;
+    text-align: center;
+    width: 50%;
+}
+
+#title1{
+    color: rgb(108,99,255);
+}
+
+#title1:hover{
+    color: black;
+    transition: 0.3s all;
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 20%;
+    background-color: rgb(108,99,255);
+    color: white;
+    font-weight: bold;
+}
+
+form [type="submit"]:hover{
+    cursor: pointer;  
+    color: black;
+    transition: 0.3s all;
+}
+
+
+#Abastecimento{
+    color: rgb(255, 255, 255);
+    background-color: rgb(108,99,255);
+    color: white;
+    font-weight: bold;
+    border: solid white;
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 15px;
+    border: none;
+    text-align: center;
+    margin: 10%;
+    
+}
+
+#Abastecimento:hover{
+    color: black;
+    transition: 0.3s all;
+}
+
+h3{
+    margin-top: 10%;
+}
+
+#supply{
+    border: 2px solid rgb(108,99,255);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#supply:hover{
+    background-color: rgb(108,99,255);
+    color: white;
+}

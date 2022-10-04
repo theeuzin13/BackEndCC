@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supply</title>
+
+    <!--References css-->
+    <link href="{{ url_for('static', filename = 'styles/style.css')}}" rel="stylesheet">
+    <link href="{{ url_for('static', filename = 'styles/fonts.css')}}" rel="stylesheet">
+    <link href="{{ url_for('static', filename = 'styles/media.css')}}" rel="stylesheet">
+    <link href="{{ url_for('static', filename = 'styles/supply.css')}}" rel="stylesheet">
+</head>
+<body>
+    <!--Cabeçalho-->
+    <header>
+        <div id="title" class="logo">
+            <h1>Control</h1>
+            <h1>Car</h1>
+        </div>
+
+        <!--Lista-->
+        <ul>
+            <a href="#"><li>Início</li></a>
+            <a href="#"><li>Sobre</li></a>
+        </ul>
+
+    </header>
+
+    <main>
+        <div id="formulario">
+            <form id="form" action="">
+                    <input type="datetime-local">
+                    <input type="text" placeholder="Responsável" list="names">
+                    <datalist id="names">
+                        <option value="Ana Paula"></option>
+                        <option value="Roselaine"></option>
+                        <option value="Daiane"></option>
+                        <option value="Suellen"></option>
+                        <option value="Matheus"></option>
+                        <option value="Marcus"></option>
+                        <option value="Nilo"></option>
+                        <option value="Ulisses"></option>
+                        <option value="Bárbara"></option>
+                        <option value="Paula"></option>
+                    </datalist>
+
+                <div class="custom-checkbox">
+                    <input type="radio" id="vehicle1" name="vehicle1" value="VW Saveiro">
+                    <label for="vehicle1"> RNC 4E59 - VW Saveiro </label><br>
+                    <input type="radio" id="vehicle2" name="vehicle1" value="Fiat Uno">
+                    <label for="vehicle2"> PXV 4120 - Fiat Uno </label><br>
+                    <input type="radio" id="vehicle3" name="vehicle1" value="Fiat Toro">
+                    <label for="vehicle3"> QZD 9G99 - Fiat Toro </label><br>
+
+                    <input type="radio" id="Alcool" name="combustivel">
+                    <label for="Alcool"> Alcool </label>
+                    <input type="radio" id="Gasolina" name="combustivel">
+                    <label for="Gasolina"> Gasolina </label>
+                    <input type="radio" id="Diesel" name="combustivel">
+                    <label for="Diesel"> Diesel </label>
+                </div>
+                    <input type="text" placeholder="Local de Abastecimento">
+                    <input type="text" placeholder="Quantidade em Litros">
+                    <input type="text" placeholder="Valor total em reais">
+                    <input type="submit" value="Enviar">
+            </form>
+
+
+    </main>
+    <footer>
+        <p>© 2022 Control CAR | Desenvolvido por: Matheus Henrique</p>
+    </footer>
+</body>
+</html>

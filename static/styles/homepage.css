@@ -1,0 +1,50 @@
+#left{
+    display: flex;
+    justify-content: left;
+    padding: 50%;
+    width: 300%;
+}
+
+#right{
+    display: flex;
+    justify-content: right;
+}
+
+main{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img{
+    width: 620px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+
+input{
+    border-radius: 20px;
+    padding: 15px;
+    margin-top: 10px;
+    border: none;
+    font-size: 15px;
+
+}
+
+form [type="submit"]{
+    background-color: rgb(108,99,255);
+    color: white;
+    font-weight: bold;
+    width: 50%;
+}
+
+form [type="submit"]:hover{
+    cursor: pointer;
+}

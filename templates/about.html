@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+
+    <!--References css-->
+    <link href="{{ url_for('static', filename = 'styles/style.css')}}" rel="stylesheet">
+    <link href="{{ url_for('static', filename = 'styles/fonts.css')}}" rel="stylesheet">
+    <link href="{{ url_for('static', filename = 'styles/media.css')}}" rel="stylesheet">
+    <link href="{{ url_for('static', filename = 'styles/about.css')}}" rel="stylesheet">
+</head>
+<body>
+     <!--Cabeçalho-->
+     <header>
+        <div id="title" class="logo">
+            <h1>Control</h1>
+            <h1>Car</h1>
+        </div>
+       
+        <!--Lista-->
+        <ul>
+            <a href="#"><li>Início</li></a>
+            <a href="#"><li>Sobre</li></a>
+        </ul>
+
+    </header>
+
+    <main>
+        <aside>
+        
+        <div id="left">
+            <p></p>
+            
+        </aside>
+
+        <article>
+            <div id="right">
+                <img src="{{url_for('static', filename = 'images/analist.png')}}" alt="Demonstração de pessoas em um carro">
+            </div>
+        </article>
+            </div>
+     </main>
+
+    <footer>
+        <p>© 2022 Control CAR | Desenvolvido por: Matheus Henrique</p>
+    </footer>
+</body>
+</html>

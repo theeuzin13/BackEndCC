@@ -1,0 +1,23 @@
+#left{
+    display: flex;
+    justify-content: left;
+    padding: 50%;
+    width: 300%;
+}
+
+#right{
+    display: flex;
+    justify-content: right;
+}
+
+main{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img{
+    width: 800px;
+}

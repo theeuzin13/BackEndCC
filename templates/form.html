@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+    <!--References css-->
+    <link href="{{ url_for('static', filename = 'styles/style.css')}}" rel="stylesheet">
+    <link href="{{ url_for('static', filename = 'styles/fonts.css')}}" rel="stylesheet">
+    <link href="{{ url_for('static', filename = 'styles/media.css')}}" rel="stylesheet">
+    <link href="{{ url_for('static', filename = 'styles/form.css')}}" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id="title" class="logo">
+            <h1>Control</h1>
+            <h1>Car</h1>
+        </div>
+       
+        <!--Lista-->
+        <ul>
+            <a href="#"><li>Início</li></a>
+            <a href="#"><li>Sobre</li></a>
+            <a href="#" id="supply"><li>Abastecimento</li></a>
+        </ul>
+
+    </header>
+
+
+    <main>
+        <div id="formulario">
+            <form id="form" action="">
+                <input type="text" placeholder="Nome do Condutor">
+                <input type="text" placeholder="Digite a Rota">
+                <input id="date" type="date">
+                <input type="text" placeholder="Digite a placa do Automóvel">
+                <input type="text" placeholder="Digite o KM inicial">
+                <input type="submit" value="Enviar">
+            </form>
+    </main>
+    <footer>
+        <p>© 2022 Control CAR | Desenvolvido por: Matheus Henrique</p>
+    </footer>
+</body>
+</html>
