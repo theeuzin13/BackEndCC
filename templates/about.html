@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,14 +13,15 @@
     <link href="{{ url_for('static', filename = 'styles/media.css')}}" rel="stylesheet">
     <link href="{{ url_for('static', filename = 'styles/about.css')}}" rel="stylesheet">
 </head>
+
 <body>
-     <!--Cabeçalho-->
-     <header>
+    <!--Cabeçalho-->
+    <header>
         <div id="title" class="logo">
             <h1>Control</h1>
             <h1>Car</h1>
         </div>
-       
+
         <!--Lista-->
         <ul>
             <a href="#"><li>Início</li></a>
@@ -29,23 +31,25 @@
     </header>
 
     <main>
-        <aside>
-        
-        <div id="left">
-            <p></p>
-            
+        <aside id="left">
+
+            <div>
+                <p>Este app foi desenvolvido com a finalidade de ajudar empresas que trabalham com veículos e quer ter
+                    um controle mensal de combustível abastecidos e de quilômetragem percorrido.</p>
+            </div>
         </aside>
 
-        <article>
-            <div id="right">
-                <img src="{{url_for('static', filename = 'images/analist.png')}}" alt="Demonstração de pessoas em um carro">
+        <article id="right">
+            <div>
+                <img src="{{url_for('static', filename = 'images/analist.png')}}"
+                    alt="Demonstração de pessoas em um carro">
             </div>
         </article>
-            </div>
-     </main>
+    </main>
 
     <footer>
         <p>© 2022 Control CAR | Desenvolvido por: Matheus Henrique</p>
     </footer>
 </body>
+
 </html>

@@ -1,13 +1,14 @@
 #left{
     display: flex;
     justify-content: left;
-    padding: 50%;
-    width: 300%;
+    align-items: center;
+    padding: 10%;
 }
 
 #right{
     display: flex;
     justify-content: right;
+    align-items: center;
 }
 
 main{
@@ -20,4 +21,10 @@ main{
 
 img{
     width: 800px;
+}
+
+p{
+    line-height: 20px;
+    max-width: 1000px;
+    font-family: poppinslight;
 }
